@@ -1,0 +1,4 @@
+.container
+  .row
+    .col-xs-12.text-center
+      img src="http://masterpiecemanager.com/wp-content/uploads/2012/07/art-management.png" class="img-responsive"
