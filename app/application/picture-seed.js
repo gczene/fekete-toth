@@ -4,7 +4,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 1',
-      image: '/images/city-scenes/city-1.jpg',
+      images: './images/city-scenes/city-1.jpg',
       description: 'kep 1 description'
     }
   }, {
@@ -12,7 +12,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 2',
-      image: '/images/city-scenes/city-2.jpg',
+      images: './images/city-scenes/city-2.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -20,7 +20,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/city-scenes/city-3.jpg',
+      images: './images/city-scenes/city-3.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -28,7 +28,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/city-scenes/city-4.jpg',
+      images: './images/city-scenes/city-4.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -36,7 +36,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/city-scenes/city-5.jpg',
+      images: './images/city-scenes/city-5.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -44,7 +44,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/city-scenes/city-7.jpg',
+      images: './images/city-scenes/city-7.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -52,7 +52,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/city-scenes/city-8.jpg',
+      images: './images/city-scenes/city-8.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -60,7 +60,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/coffee-cups/coffee-cups-1.jpg',
+      images: './images/coffee-cups/coffee-cups-1.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -68,7 +68,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/coffee-cups/coffee-cups-2.jpg',
+      images: './images/coffee-cups/coffee-cups-2.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -76,7 +76,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/coffee-cups/coffee-cups-3.jpg',
+      images: './images/coffee-cups/coffee-cups-3.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -84,7 +84,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/coffee-cups/coffee-cups-4.jpg',
+      images: './images/coffee-cups/coffee-cups-4.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -92,7 +92,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/coffee-cups/coffee-cups-5.jpg',
+      images: './images/coffee-cups/coffee-cups-5.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -100,7 +100,7 @@ export default {
     type: 'picture',
     attributes: {
       title: 'kep 3',
-      image: '/images/coffee-cups/coffee-cups-6.jpg',
+      images: './images/coffee-cups/coffee-cups-6.jpg',
       description: 'kep 2 description'
     }
   }]
