@@ -8,7 +8,9 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('home', {path: '/'});
-  this.route('portfolio');
+  this.route('portfolio', {path: '/gallery'}, function() {
+  });
+  this.route('group', {path: '/portfolio/:id'});
 });
 
 export default Router;

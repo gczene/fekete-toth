@@ -1,0 +1,10 @@
+.container
+  .row
+    div
+      h1 Gallery
+  .row
+    each groups as |group|
+      = link-to "group" group.id class="col-sm-4"
+        h4
+          group.title
+        img src=group.image class="img-thumbnail"
