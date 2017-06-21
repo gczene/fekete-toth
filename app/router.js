@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('portfolio', {path: '/gallery'}, function() {
   });
   this.route('group', {path: '/portfolio/:id'});
+  this.route('about');
 });
 
 export default Router;

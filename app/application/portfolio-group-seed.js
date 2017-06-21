@@ -4,7 +4,7 @@ export default {
     type: 'portfolio-group',
     attributes: {
       title: 'city scenes',
-      images: './images/city-scenes/city-2.jpg'
+      image: './images/city-scenes/city-2.jpg'
     },
     relationships: {
       pictures: {
@@ -44,7 +44,7 @@ export default {
     type: 'portfolio-group',
     attributes: {
       title: 'coffee cups',
-      images: './images/coffee-cups/coffee-cups-4.jpg'
+      image: './images/coffee-cups/coffee-cups-4.jpg'
     },
     relationships: {
       pictures: {

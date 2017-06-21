@@ -2,5 +2,4 @@
   .row
     each group.pictures as |pic|
       .col-sm-4
-        / = pic.title
         img src=pic.image class="img-thumbnail"

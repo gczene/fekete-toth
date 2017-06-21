@@ -9,5 +9,12 @@ export default Ember.Route.extend({
   },
   beforeModel() {
     return this.pushRecords();
+  },
+  afterModel() {
+    let pictures = this.store.peekAll('picture');
+    pictures.forEach((picture) => {
+      picture.set('i', new Image());
+      picture.set('i.src', picture.get('image'));
+    });
   }
 });
