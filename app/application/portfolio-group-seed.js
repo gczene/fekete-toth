@@ -33,11 +33,58 @@ export default {
       }
     }
   }, {
-    id: 2,
+    id: 'collages',
     type: 'portfolio-group',
     attributes: {
       title: 'collages',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiLLl7EgEpIgIno8oDkeFctENR3bY95Eoq6wWz2ze9EQkL39AW'
+      image: '/images/collages/collage-2.jpg'
+    },
+    relationships: {
+      pictures: {
+        data: [{
+          id: 'collage-1',
+          type: 'picture'
+        }, {
+          id: 'collage-2',
+          type: 'picture'
+        }, {
+          id: 'collage-3',
+          type: 'picture'
+        }]
+      }
+    }
+  }, {
+    id: 'prints',
+    type: 'portfolio-group',
+    attributes: {
+      title: 'prints',
+      image: '/images/collages/collage-2.jpg'
+    },
+    relationships: {
+      pictures: {
+        data: [{
+          id: 'print-1',
+          type: 'picture'
+        }, {
+          id: 'print-2',
+          type: 'picture'
+        }, {
+          id: 'print-3',
+          type: 'picture'
+        }, {
+          id: 'print-4',
+          type: 'picture'
+        }, {
+          id: 'print-5',
+          type: 'picture'
+        }, {
+          id: 'print-6',
+          type: 'picture'
+        }, {
+          id: 'print-7',
+          type: 'picture'
+        }]
+      }
     }
   }, {
     id: 'coffee-cups',

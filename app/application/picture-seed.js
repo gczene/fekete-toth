@@ -103,5 +103,85 @@ export default {
       image: '/images/coffee-cups/coffee-cups-6.jpg',
       description: 'kep 2 description'
     }
+  }, {
+    id: 'collage-1',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/collages/collage-1.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'collage-2',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/collages/collage-2.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'collage-3',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/collages/collage-3.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'print-1',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/prints/print-1.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'print-2',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/prints/print-2.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'print-3',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/prints/print-3.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'print-4',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/prints/print-4.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'print-5',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/prints/print-5.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'print-6',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/prints/print-6.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'print-7',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/prints/print-7.jpg',
+      description: 'kep 1 description'
+    }
   }]
 };
