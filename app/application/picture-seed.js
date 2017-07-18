@@ -40,6 +40,14 @@ export default {
       description: 'kep 2 description'
     }
   }, {
+    id: 'city-6',
+    type: 'picture',
+    attributes: {
+      title: 'kep 3',
+      image: '/images/city-scenes/city-6.jpg',
+      description: 'kep 2 description'
+    }
+  }, {
     id: 'city-7',
     type: 'picture',
     attributes: {
@@ -53,6 +61,22 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/city-scenes/city-8.jpg',
+      description: 'kep 2 description'
+    }
+  }, {
+    id: 'city-9',
+    type: 'picture',
+    attributes: {
+      title: 'kep 3',
+      image: '/images/city-scenes/city-9.jpg',
+      description: 'kep 2 description'
+    }
+  }, {
+    id: 'city-10',
+    type: 'picture',
+    attributes: {
+      title: 'kep 3',
+      image: '/images/city-scenes/city-10.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -101,6 +125,46 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/coffee-cups/coffee-cups-6.jpg',
+      description: 'kep 2 description'
+    }
+  }, {
+    id: 'coffee-cups-7',
+    type: 'picture',
+    attributes: {
+      title: 'kep 3',
+      image: '/images/coffee-cups/coffee-cups-7.jpg',
+      description: 'kep 2 description'
+    }
+  }, {
+    id: 'coffee-cups-8',
+    type: 'picture',
+    attributes: {
+      title: 'kep 3',
+      image: '/images/coffee-cups/coffee-cups-8.jpg',
+      description: 'kep 2 description'
+    }
+  }, {
+    id: 'coffee-cups-9',
+    type: 'picture',
+    attributes: {
+      title: 'kep 3',
+      image: '/images/coffee-cups/coffee-cups-9.jpg',
+      description: 'kep 2 description'
+    }
+  }, {
+    id: 'coffee-cups-10',
+    type: 'picture',
+    attributes: {
+      title: 'kep 3',
+      image: '/images/coffee-cups/coffee-cups-10.jpg',
+      description: 'kep 2 description'
+    }
+  }, {
+    id: 'coffee-cups-11',
+    type: 'picture',
+    attributes: {
+      title: 'kep 3',
+      image: '/images/coffee-cups/coffee-cups-11.jpg',
       description: 'kep 2 description'
     }
   }, {
@@ -181,6 +245,14 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/prints/print-7.jpg',
+      description: 'kep 1 description'
+    }
+  }, {
+    id: 'print-8',
+    type: 'picture',
+    attributes: {
+      title: 'kep 1',
+      image: '/images/prints/print-8.jpg',
       description: 'kep 1 description'
     }
   }]

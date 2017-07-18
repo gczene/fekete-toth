@@ -24,10 +24,19 @@ export default {
           id: 'city-5',
           type: 'picture'
         }, {
+          id: 'city-6',
+          type: 'picture'
+        }, {
           id: 'city-7',
           type: 'picture'
         }, {
           id: 'city-8',
+          type: 'picture'
+        }, {
+          id: 'city-9',
+          type: 'picture'
+        }, {
+          id: 'city-10',
           type: 'picture'
         }]
       }
@@ -83,6 +92,9 @@ export default {
         }, {
           id: 'print-7',
           type: 'picture'
+        }, {
+          id: 'print-8',
+          type: 'picture'
         }]
       }
     }
@@ -112,6 +124,21 @@ export default {
           type: 'picture'
         }, {
           id: 'coffee-cups-6',
+          type: 'picture'
+        }, {
+          id: 'coffee-cups-7',
+          type: 'picture'
+        }, {
+          id: 'coffee-cups-8',
+          type: 'picture'
+        }, {
+          id: 'coffee-cups-9',
+          type: 'picture'
+        }, {
+          id: 'coffee-cups-10',
+          type: 'picture'
+        }, {
+          id: 'coffee-cups-11',
           type: 'picture'
         }]
       }
