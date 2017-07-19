@@ -3,4 +3,5 @@
     .col-sm-8.col-sm-offset-2
       each group.pictures as |pic|
         / .elem
-        img src=pic.image class="img-thumbnail"
+        = light-box href=pic.image data-lightbox="gallery" class="img-thumbnail"
+        / img src=pic.image class="img-thumbnail"
