@@ -1,7 +1,7 @@
 .container
-  .row
-    div
-      h1 Home
+  / .row
+  /   div
+  /     h1 Home
   .row
     .col-xs-12.text-center
-      img src="http://masterpiecemanager.com/wp-content/uploads/2012/07/art-management.png" class="img-responsive"
+      img src="/images/opening-image.jpg" class="img-responsive"
