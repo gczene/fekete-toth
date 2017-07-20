@@ -12,6 +12,7 @@ Router.map(function() {
   });
   this.route('group', {path: '/portfolio/:id'});
   this.route('about');
+  this.route('contact-me');
 });
 
 export default Router;
