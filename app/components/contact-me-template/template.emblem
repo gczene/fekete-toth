@@ -4,4 +4,4 @@
   /     h1 Home
   .row
     .col-sm-4.col-sm-offset-4.text-center
-      | E-mail: eszter@fekete-toth.uk
+      | E-mail: eszter@fekete-toth.uk <br /> Tel: <a href="tel:+447739471959">07739 471959</a>
