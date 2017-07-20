@@ -67,7 +67,7 @@ export default {
     type: 'portfolio-group',
     attributes: {
       title: 'prints',
-      image: '/images/collages/collage-2.jpg'
+      image: '/images/prints/print-8.jpg'
     },
     relationships: {
       pictures: {
