@@ -1,4 +1,6 @@
 @import "ember-bootstrap/bootstrap";
+@import "ember-photoswipe";
+
 body, html {
   background-color: rgba(209, 205, 199, 1);
 }
@@ -9,4 +11,11 @@ body, html {
 
 .navbar-default {
   background-color: transparent;
+}
+.img-thumbnail {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  img {
+    height: 150px;
+  }
 }

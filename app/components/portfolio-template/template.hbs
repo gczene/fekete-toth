@@ -4,10 +4,9 @@
   </div>
   <div class="row">
     {{#each @groups as |group|}}
-      {{#link-to "group" group class="col-sm-4"}}
-        <h4>{{group.title}} {{group.id}}</h4>
+      {{#link-to "group" group.id class="col-sm-4"}}
+        <h4>{{group.title}}</h4>
         <img src={{group.image}} class="img-thumbnail" />
-
       {{/link-to}}
     {{/each}}
   </div>
