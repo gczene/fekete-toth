@@ -1,0 +1,48 @@
+<BsNavbar as |navbar|>
+  <div class="navbar-header">
+    <navbar.toggle />
+    <a class="navbar-brand" href="#">Brand</a>
+  </div>
+  <navbar.content>
+    <navbar.nav as |nav|>
+      <nav.item>
+        <nav.linkTo @route="home">Home</nav.linkTo>
+      </nav.item>
+    </navbar.nav>
+  </navbar.content>
+</BsNavbar>
+
+<!--<nav class="navbar navbar-default">-->
+<!--  <div class="container-fluid">-->
+<!--    &lt;!&ndash; Brand and toggle get grouped for better mobile display &ndash;&gt;-->
+<!--    <div class="navbar-header">-->
+<!--      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
+<!--        <span class="sr-only">Toggle navigation</span>-->
+<!--        <span class="icon-bar"></span>-->
+<!--        <span class="icon-bar"></span>-->
+<!--        <span class="icon-bar"></span>-->
+<!--      </button>-->
+<!--      <a class="navbar-brand" href="#">Eszter Fekete-Toth</a>-->
+<!--    </div>-->
+<!--    -->
+<!--    &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;-->
+<!--    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+<!--      <ul class="nav navbar-nav navbar-right">-->
+<!--        <li><LinkTo @route='home'>Home</LinkTo></li>-->
+<!--        <li><LinkTo @route='portfolio'>Gallery</LinkTo></li>-->
+<!--        <li><LinkTo @route='about'>About</LinkTo></li>-->
+<!--        <li><LinkTo @route='art-teaching'>Courses</LinkTo></li>-->
+<!--        <li><LinkTo @route='contact-me'>Contact</LinkTo></li>-->
+<!--        <li class="dropdown">-->
+<!--          <ul class="dropdown-menu">-->
+<!--            <li>{{#link-to 'home'}}Home{{/link-to}}</li>-->
+<!--            <li>{{#link-to 'portfolio'}}Gallery{{/link-to}}</li>-->
+<!--            <li role="separator" class="divider"></li>-->
+<!--            <li>{{#link-to 'contact-me'}}Contact{{/link-to}}</li>-->
+<!--          </ul>-->
+<!--        </li>-->
+
+<!--      </ul>-->
+<!--    </div>&lt;!&ndash; /.navbar-collapse &ndash;&gt;-->
+<!--  </div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
+<!--</nav>-->

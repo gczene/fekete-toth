@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <h1>Gallery</h1>
+  </div>
+  <div class="row">
+    {{#each @groups as |group|}}
+      {{#link-to "group" group class="col-sm-4"}}
+        <h4>{{group.title}} {{group.id}}</h4>
+        <img src={{group.image}} class="img-thumbnail" />
+
+      {{/link-to}}
+    {{/each}}
+  </div>
+</div>
