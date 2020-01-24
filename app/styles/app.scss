@@ -19,3 +19,8 @@ body, html {
     height: 150px;
   }
 }
+.contact-me {
+  @media (min-width: 450px) {
+    padding-top: 100px;
+  }
+}
