@@ -4,12 +4,15 @@
     <a class="navbar-brand" href="#">Brand</a>
   </div>
   <navbar.content>
-    <navbar.nav as |nav|>
+    <navbar.nav class="navbar-right" as |nav|>
       <nav.item>
         <nav.linkTo @route="home">Home</nav.linkTo>
       </nav.item>
       <nav.item>
         <nav.linkTo @route="portfolio">Gallery</nav.linkTo>
+      </nav.item>
+      <nav.item>
+        <nav.linkTo @route="about">About</nav.linkTo>
       </nav.item>
     </navbar.nav>
   </navbar.content>
