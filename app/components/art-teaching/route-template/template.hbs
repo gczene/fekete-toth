@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <h1>Courses</h1>
+      <p>
+        Coming today... Please come back later.
+      </p>
+      {{#photo-swipe items=@pictures history=false as |photoswipe|}}
+        {{#each @pictures as |item index|}}
+          <div class="img-thumbnail">
+            <img src={{item.src}} {{action photoswipe.actions.open (hash index=index)}} />
+          </div>
+        {{/each}}
+      {{/photo-swipe}}
+
+    </div>
+  </div>
+</div>
