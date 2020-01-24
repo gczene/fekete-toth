@@ -14,4 +14,5 @@ Router.map(function() {
   this.route('about');
   this.route('contact-me');
   this.route('art-teaching');
+  this.route('base-route');
 });

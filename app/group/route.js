@@ -1,4 +1,4 @@
-import Route from '@ember/routing/route';
+import Route from '../base-route/route';
 
 export default class GroupRoute extends Route {
   model(params) {
