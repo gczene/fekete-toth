@@ -1,13 +1,14 @@
 <div class="container">
   <div class="row">
-    <h1>Gallery</h1>
-  </div>
-  <div class="row">
-    {{#each @groups as |group|}}
-      {{#link-to "group" group.id class="col-sm-4"}}
-        <h4>{{group.title}}</h4>
-        <img src={{group.image}} class="img-thumbnail" />
-      {{/link-to}}
-    {{/each}}
+    <div class="col-xs-12">
+      <h1>Gallery</h1>
+
+      {{#each @groups as |group|}}
+        {{#link-to "group" group.id class="col-sm-4 pic"}}
+          <h4>{{group.title}}</h4>
+          <img src={{group.image}} class="img-thumbnail" />
+        {{/link-to}}
+      {{/each}}
+    </div>
   </div>
 </div>

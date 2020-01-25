@@ -1,66 +1,67 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
-      <h1>STEP by STEP WATERCOLOUR PAINTING LESSONS</h1>
-      <p>
-        in Hobbycraft Staines from 21/02/2020
-        watercolour and water based techniques over 6 weeks
-        different techniques and materials every week
-        £20 per class- all art materials included (art quality)
-        classes can be taken independently from each other
-        advanced registration required, payment can be made at the beginning of each class
-        attendees must be 16 and older.<br />
-        PAY for 5 get 1 FREE<br />
-        FREE COFFEE! :)<br />
-        Drawing skills are not essential! <br />
-      </p>
-      <p>
-        Please contact me to book your place or if you have any questions<br />
-        07739471959<br />
-        eszter@fekete-toth.uk<br />
+    <div class="col-sm-10 col-sm-offset-1">
+      <div class="content">
+        <h1>STEP by STEP WATERCOLOUR PAINTING LESSONS</h1>
+        <p>
+          in Hobbycraft Staines from 21/02/2020
+          watercolour and water based techniques over 6 weeks
+          different techniques and materials every week
+          £20 per class- all art materials included (art quality)
+          classes can be taken independently from each other
+          advanced registration required, payment can be made at the beginning of each class
+          attendees must be 16 and older.<br />
+          PAY for 5 get 1 FREE<br />
+          FREE COFFEE! :)<br />
+          Drawing skills are not essential! <br />
+        </p>
+        <p>
+          Please contact me to book your place or if you have any questions<br />
+          07739471959<br />
+          eszter@fekete-toth.uk<br />
 
-      </p>
-      <h2>Dates</h2>
-      <p>
-        <b>Lesson 1: Orchids</b><br />
-        building layers in watercolour<br />
-        21/02 (Friday)- 10.00 -12.30<br />
-        23/02 (Sunday) - 10.00- 12.30<br />
-        <br />
-        <b>Lesson 2: Flying bird and bugs</b><br />
-        ink and pen drawing<br />
-        28/02 (Friday)- 10.00-12.30<br />
-        01/03 (Sunday)- 10.00 -12.30<br />
-        <br />
-        <b>Lesson 3: Landscape</b><br />
-        painting clouds, reflections, using aquapasto for creating texture<br />
-        06/03 (Friday) - 10.00 -12.30<br />
-        08/03 (Sunday)- 10.00 -12.30<br />
-        <br />
-        <b>Lesson 4: Amsterdam bridge</b><br />
-        mixed media<br />
-        13/03 (Friday) - 10.00 -12.30<br />
-        15/03 (Sunday)- 10.00 -12.30<br />
-        <br />
+        </p>
+        <h2>Dates</h2>
+        <p>
+          <b>Lesson 1: Orchids</b><br />
+          building layers in watercolour<br />
+          21/02 (Friday)- 10.00 -12.30<br />
+          23/02 (Sunday) - 10.00- 12.30<br />
+          <br />
+          <b>Lesson 2: Flying bird and bugs</b><br />
+          ink and pen drawing<br />
+          28/02 (Friday)- 10.00-12.30<br />
+          01/03 (Sunday)- 10.00 -12.30<br />
+          <br />
+          <b>Lesson 3: Landscape</b><br />
+          painting clouds, reflections, using aquapasto for creating texture<br />
+          06/03 (Friday) - 10.00 -12.30<br />
+          08/03 (Sunday)- 10.00 -12.30<br />
+          <br />
+          <b>Lesson 4: Amsterdam bridge</b><br />
+          mixed media<br />
+          13/03 (Friday) - 10.00 -12.30<br />
+          15/03 (Sunday)- 10.00 -12.30<br />
+          <br />
 
-        <b>Lesson 5: Boats</b><br />
-        Watercolour and gouache<br />
-        20/03 (Friday)- 10.00 -12.30<br />
-        22/03 (Sunday)- 10.00 -12.30<br />
-        <br />
-        <b>Lesson 6: Still life</b><br />
-        Collage<br />
-        27/03 (Friday)- 10.00 -12.30<br />
-        29/03(Sunday)- 10.00 -12.30<br />
-      </p>
-      {{#photo-swipe items=@pictures history=false as |photoswipe|}}
-        {{#each @pictures as |item index|}}
-          <div class="img-thumbnail">
-            <img src={{item.src}} {{action photoswipe.actions.open (hash index=index)}} />
-          </div>
-        {{/each}}
-      {{/photo-swipe}}
-
+          <b>Lesson 5: Boats</b><br />
+          Watercolour and gouache<br />
+          20/03 (Friday)- 10.00 -12.30<br />
+          22/03 (Sunday)- 10.00 -12.30<br />
+          <br />
+          <b>Lesson 6: Still life</b><br />
+          Collage<br />
+          27/03 (Friday)- 10.00 -12.30<br />
+          29/03(Sunday)- 10.00 -12.30<br />
+        </p>
+        {{#photo-swipe items=@pictures history=false as |photoswipe|}}
+          {{#each @pictures as |item index|}}
+            <div class="img-thumbnail">
+              <img src={{item.src}} {{action photoswipe.actions.open (hash index=index)}} />
+            </div>
+          {{/each}}
+        {{/photo-swipe}}
+      </div>
     </div>
   </div>
 </div>
