@@ -8,6 +8,6 @@ export default class PictureModel extends Model {
   @alias('image') src;
   @attr('string') description;
   @attr('string', { defaultValue: 'gallery'}) type;
-  w = 1024;
+  // w = 1024;
   h = 768;
 }
