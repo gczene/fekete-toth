@@ -28,7 +28,7 @@ export default {
     type: 'portfolio-group',
     attributes: {
       title: 'city scenes',
-      image: './images/city-scenes/city-2.jpg'
+      image: './images/city-scenes/city-1.jpg'
     },
     relationships: {
       pictures: {
