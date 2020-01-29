@@ -11,13 +11,16 @@ export default class PictureModel extends Model {
   @attr('string') description;
   @attr('string', { defaultValue: 'gallery'}) type;
   @attr('string', { defaultValue: 'portrait' }) layout;
-  // withoout this photswpie dies
+  @attr('number') width;
+  @attr('number') height;
+
+
   @computed('layout')
   get w() {
-    return this.layout === 'portrait' ? 2448 : 3264
+    return this.width || (this.layout === 'portrait' ? 2448 : 3264)
   }
   @computed('layout')
   get h() {
-    return this.layout === 'portrait' ? 3264 : 2448;
+    return this.height || (this.layout === 'portrait' ? 3264 : 2448);
   }
 }

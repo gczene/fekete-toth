@@ -6,7 +6,6 @@ export default {
       title: 'kep 1',
       image: '/images/city-scenes/city-1.jpg',
       description: 'kep 1 description',
-      isPrortrait: true,
       layout: 'portrait',
     }
   }, {
@@ -185,7 +184,8 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/collages/collage-1.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      layout: 'landscape',
     }
   }, {
     id: 'collage-2',
@@ -193,7 +193,8 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/collages/collage-2.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      layout: 'landscape',
     }
   }, {
     id: 'collage-3',
@@ -201,7 +202,8 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/collages/collage-3.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      layout: 'landscape',
     }
   }, {
     id: 'print-1',
@@ -209,7 +211,10 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/prints/print-1.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      layout: 'landscape',
+      width: 1481,
+      height: 1050,
     }
   }, {
     id: 'print-2',
@@ -217,7 +222,9 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/prints/print-2.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      width: 807,
+      height: 1158,
     }
   }, {
     id: 'print-3',
@@ -225,7 +232,9 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/prints/print-3.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      width: 866,
+      height: 1451,
     }
   }, {
     id: 'print-4',
@@ -233,7 +242,9 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/prints/print-4.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      width: 892,
+      height: 1246,
     }
   }, {
     id: 'print-5',
@@ -241,7 +252,9 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/prints/print-5.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      width: 773,
+      height: 1153,
     }
   }, {
     id: 'print-6',
@@ -249,7 +262,9 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/prints/print-6.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      width: 932,
+      height: 1020,
     }
   }, {
     id: 'print-7',
@@ -257,7 +272,9 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/prints/print-7.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      width: 866,
+      height: 1217,
     }
   }, {
     id: 'print-8',
@@ -265,7 +282,10 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/prints/print-8.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      width: 1306,
+      height: 939,
+
     }
   }, {
     id: 'art-1',
