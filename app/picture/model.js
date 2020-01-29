@@ -1,5 +1,7 @@
 import Model, { attr } from '@ember-data/model';
-import { alias } from '@ember/object/computed';
+import {computed} from '@ember/object';
+
+const { alias } = computed;
 
 export default class PictureModel extends Model {
   @attr('string') title;
@@ -8,6 +10,14 @@ export default class PictureModel extends Model {
   @alias('image') src;
   @attr('string') description;
   @attr('string', { defaultValue: 'gallery'}) type;
-  // w = 1024;
-  h = 768;
+  @attr('string', { defaultValue: 'portrait' }) layout;
+  // withoout this photswpie dies
+  @computed('layout')
+  get w() {
+    return this.layout === 'portrait' ? 2448 : 3264
+  }
+  @computed('layout')
+  get h() {
+    return this.layout === 'portrait' ? 3264 : 2448;
+  }
 }

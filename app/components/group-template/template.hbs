@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
       <h1>{{@group.title}}</h1>
-      {{#photo-swipe items=@group.pictures history=false as |photoswipe|}}
+      {{#photo-swipe modal=true items=@group.pictures history=false as |photoswipe|}}
         {{#each @group.pictures as |item index|}}
           <div class="img-thumbnail">
             <img src={{item.src}} {{action photoswipe.actions.open (hash index=index)}} />

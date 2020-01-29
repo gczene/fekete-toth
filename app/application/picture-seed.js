@@ -5,7 +5,9 @@ export default {
     attributes: {
       title: 'kep 1',
       image: '/images/city-scenes/city-1.jpg',
-      description: 'kep 1 description'
+      description: 'kep 1 description',
+      isPrortrait: true,
+      layout: 'portrait',
     }
   }, {
     id: 'city-2',
@@ -13,7 +15,8 @@ export default {
     attributes: {
       title: 'kep 2',
       image: '/images/city-scenes/city-2.jpg',
-      description: 'kep 2 description'
+      description: 'kep 2 description',
+      layout: 'portrait'
     }
   }, {
     id: 'city-3',
@@ -21,7 +24,8 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/city-scenes/city-3.jpg',
-      description: 'kep 2 description'
+      description: 'kep 2 description',
+      layout: 'landscape',
     }
   }, {
     id: 'city-4',
@@ -29,7 +33,8 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/city-scenes/city-4.jpg',
-      description: 'kep 2 description'
+      description: 'kep 2 description',
+      layout: 'landscape',
     }
   }, {
     id: 'city-5',
@@ -37,7 +42,8 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/city-scenes/city-5.jpg',
-      description: 'kep 2 description'
+      description: 'kep 2 description',
+      layout: 'landscape',
     }
   }, {
     id: 'city-6',
@@ -45,7 +51,8 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/city-scenes/city-6.jpg',
-      description: 'kep 2 description'
+      description: 'kep 2 description',
+      layout: 'landscape',
     }
   }, {
     id: 'city-7',
@@ -53,7 +60,8 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/city-scenes/city-7.jpg',
-      description: 'kep 2 description'
+      description: 'kep 2 description',
+      layout: 'landscape',
     }
   }, {
     id: 'city-8',
@@ -61,7 +69,8 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/city-scenes/city-8.jpg',
-      description: 'kep 2 description'
+      description: 'kep 2 description',
+      layout: 'landscape',
     }
   }, {
     id: 'city-9',
@@ -69,7 +78,9 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/city-scenes/city-9.jpg',
-      description: 'kep 2 description'
+      description: 'kep 2 description',
+      layout: 'portrait',
+
     }
   }, {
     id: 'city-10',
@@ -77,7 +88,8 @@ export default {
     attributes: {
       title: 'kep 3',
       image: '/images/city-scenes/city-10.jpg',
-      description: 'kep 2 description'
+      description: 'kep 2 description',
+      layout: 'landscape',
     }
   }, {
     id: 'coffee-cups-1',
