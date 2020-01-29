@@ -41,6 +41,27 @@ body, html {
   .pic {
 
   }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    a, >div.pic {
+      display: block;
+      @media (min-width: 577px) {
+        margin-right: 10px;
+      }
+      margin-bottom: 10px;
+      img {
+        @media (min-width: 577px) {
+          height: 250px;
+        }
+        @media (max-width: 576px) {
+          width: 100%;
+        }
+        padding: 5px;
+        background-color: #fff;
+      }
+    }
+  }
   .no-content-background {
     h1, h2, h3, h4 {
       color: white;

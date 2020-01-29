@@ -186,6 +186,8 @@ export default {
       image: '/images/collages/collage-1.jpg',
       description: 'kep 1 description',
       layout: 'landscape',
+      width: 1306,
+      height: 980,
     }
   }, {
     id: 'collage-2',
@@ -195,6 +197,8 @@ export default {
       image: '/images/collages/collage-2.jpg',
       description: 'kep 1 description',
       layout: 'landscape',
+      width: 1223,
+      height: 773,
     }
   }, {
     id: 'collage-3',
@@ -204,6 +208,8 @@ export default {
       image: '/images/collages/collage-3.jpg',
       description: 'kep 1 description',
       layout: 'landscape',
+      width: 1223,
+      height: 835,
     }
   }, {
     id: 'print-1',
@@ -285,7 +291,6 @@ export default {
       description: 'kep 1 description',
       width: 1306,
       height: 939,
-
     }
   }, {
     id: 'art-1',
@@ -349,6 +354,46 @@ export default {
       image: '/images/art-teaching/art-7.jpg',
       description: '',
       type: 'art-teaching'
+    }
+  }, {
+    id: 'brights-1',
+    type: 'picture',
+    attributes: {
+      title: 'Bright 1',
+      image: '/images/brights/brights-1.jpg',
+      description: '',
+      width: 1220,
+      height: 1033,
+    }
+  }, {
+    id: 'brights-2',
+    type: 'picture',
+    attributes: {
+      title: 'Brights 2',
+      image: '/images/brights/brights-2.jpg',
+      description: '',
+      width: 1224,
+      height: 1474,
+    }
+  }, {
+    id: 'brights-3',
+    type: 'picture',
+    attributes: {
+      title: 'Brights 3',
+      image: '/images/brights/brights-3.jpg',
+      description: '',
+      width: 997,
+      height: 1214,
+    }
+  }, {
+    id: 'brights-4',
+    type: 'picture',
+    attributes: {
+      title: 'Brights 4',
+      image: '/images/brights/brights-4.jpg',
+      description: '',
+      width: 1252,
+      height: 1928,
     }
   }]
 };

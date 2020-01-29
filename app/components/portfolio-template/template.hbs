@@ -2,13 +2,15 @@
   <div class="row">
     <div class="col-xs-12">
       <h1>Gallery</h1>
+      <div class="gallery">
+        {{#each @groups as |group|}}
+          {{#link-to "group" group.id class="pic"}}
+            <h4>{{group.title}}</h4>
+            <img src={{group.image}} />
 
-      {{#each @groups as |group|}}
-        {{#link-to "group" group.id class="col-sm-4 pic"}}
-          <h4>{{group.title}}</h4>
-          <img src={{group.image}} class="img-thumbnail" />
-        {{/link-to}}
-      {{/each}}
+          {{/link-to}}
+        {{/each}}
+      </div>
     </div>
   </div>
 </div>

@@ -1,14 +1,14 @@
 <div class="container no-content-background">
   <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
+    <div class="col-md-8 col-md-offset-2">
       <h1>{{@group.title}}</h1>
-      {{#photo-swipe modal=true items=@group.pictures history=false as |photoswipe|}}
-        {{#each @group.pictures as |item index|}}
-          <div class="img-thumbnail">
-            <img src={{item.src}} {{action photoswipe.actions.open (hash index=index)}} />
-          </div>
-        {{/each}}
-      {{/photo-swipe}}
+        {{#photo-swipe class="gallery" modal=true items=@group.pictures history=false as |photoswipe|}}
+          {{#each @group.pictures as |item index|}}
+            <div class="pic">
+              <img src={{item.src}} {{action photoswipe.actions.open (hash index=index)}} />
+            </div>
+          {{/each}}
+        {{/photo-swipe}}
     </div>
   </div>
 </div>

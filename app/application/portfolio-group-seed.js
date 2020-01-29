@@ -1,5 +1,29 @@
 export default {
   data: [{
+    id: 'brights',
+    type: 'portfolio-group',
+    attributes: {
+      title: 'brights',
+      image: './images/brights/brights-1.jpg'
+    },
+    relationships: {
+      pictures: {
+        data: [{
+          id: 'brights-1',
+          type: 'picture',
+        }, {
+          id: 'brights-2',
+          type: 'picture',
+        }, {
+          id: 'brights-3',
+          type: 'picture',
+        }, {
+          id: 'brights-4',
+          type: 'picture',
+        }]
+      }
+    }
+  }, {
     id: 'city-scenes',
     type: 'portfolio-group',
     attributes: {
