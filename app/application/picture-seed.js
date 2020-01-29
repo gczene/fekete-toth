@@ -179,6 +179,14 @@ export default {
       description: 'kep 2 description'
     }
   }, {
+    id: 'coffee-cups-12',
+    type: 'picture',
+    attributes: {
+      title: 'kep 3',
+      image: '/images/coffee-cups/coffee-cups-12.jpg',
+      description: 'kep 12 description'
+    }
+  }, {
     id: 'collage-1',
     type: 'picture',
     attributes: {

@@ -123,10 +123,10 @@ export default {
       }
     }
   }, {
-    id: 'coffee-cups',
+    id: 'still',
     type: 'portfolio-group',
     attributes: {
-      title: 'coffee cups',
+      title: 'still',
       image: './images/coffee-cups/coffee-cups-4.jpg'
     },
     relationships: {
@@ -163,6 +163,9 @@ export default {
           type: 'picture'
         }, {
           id: 'coffee-cups-11',
+          type: 'picture'
+        }, {
+          id: 'coffee-cups-12',
           type: 'picture'
         }]
       }
