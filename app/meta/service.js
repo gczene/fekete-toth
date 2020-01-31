@@ -24,12 +24,12 @@ export default class MetaService extends Service {
       case 'art-teaching':
         return {
           title: 'WATERCOLOUR PAINTING LESSONS',
-          description: 'STEP by STEP watercolor painting course in Hobby Craft, Staines'
+          description: 'STEP by STEP watercolor painting course in Staines, Hobby Craft'
         };
       default:
         return {
           title: 'Home - Eszter Fekete-Toth - ART',
-          description: 'Paintings, gallery, art teaching in Staines'
+          description: 'Paintings, gallery, art teaching, private art lessons in Staines'
         };
     }
   }
