@@ -24,7 +24,7 @@ export default class MetaService extends Service {
       case 'art-teaching':
         return {
           title: 'WATERCOLOUR PAINTING LESSONS',
-          description: 'STEP by STEP watercolor painting course in Staines, Hobby Craft'
+          description: 'STEP by STEP watercolor painting course in Staines, Hobby Craft or in private classes'
         };
       default:
         return {
