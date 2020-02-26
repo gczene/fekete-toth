@@ -22,8 +22,29 @@
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/fekete-toth-new.css">
 
     {{content-for "head-footer"}}
+    <style>
+      html, body {
+        height: 100%;
+      }
+      #pre-loader {
+        height: 100%;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+      }
+      #pre-loader>div {
+        flex: 1;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
+    <div id="pre-loader">
+      <div>
+        <h1>Page is loading...</h1>
+      </div>
+    </div>
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
